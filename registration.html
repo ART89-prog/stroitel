@@ -24,6 +24,7 @@
 		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
 		<link rel="stylesheet" href="css/swiper.css" async>
 		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/nice-select.css" async>
 		<link rel="stylesheet" href="css/styles.css" async>
 
 		<link rel="stylesheet" href="css/response_1366.css" media="print, (max-width: 1366px)" async>
@@ -172,74 +173,198 @@
 						<form>
 							<div class="form_item">
 								<div class="form_item-title">Контактные данные</div>	
-								<div class="line">
+								<div class="line w610">
 									<div class="field">
-										<label for="">Ваше имя и фамилия*</label>
+										<div class="label">Ваше имя и фамилия*</div>
 										<input type="text" placeholder="Сергей Пескарев">
 									</div>
 								</div>
-								<div class="line">
+								<div class="line w840">
 									<div class="field">
-										<label for="">Ваш телефон*</label>
-										<input type="tel" placeholder="Сергей Пескарев">
+										<div class="label">Ваш телефон*</div>
+										<input type="tel" placeholder="+7 900 833-23-13">
 									</div>
 									<div class="field">
-										<label for="">Ваш e-mail*</label>
+										<div class="label">Bаш e-mail*</div>
 										<input type="email" placeholder="mymail@gmail.com">
 									</div>
 								</div>
-								<div class="line">
+								<div class="line w840">
 									<div class="field">
-										<label for="">Страна*</label>
+										<div class="label">Страна*</div>
 										<input type="text" placeholder="Россия">
 									</div>
 									<div class="field">
-										<label for="">Город</label>
+										<div class="label">Город</div>
 										<input type="text" placeholder="Тверь">
 									</div>
 								</div>	
 							</div>
 							
-							<div class="form_item-title">Данные о компании</div>	
-							<div class="line">
-								<div class="field">
-									<label for="">Название компании*</label>
-									<input type="text" placeholder="БестМеталл">
+							<div class="form_item">
+								<div class="form_item-title">Данные о компании</div>
+								<div class="line w1030">
+									<div class="field">
+										<div class="label">Название компании*</div>
+										<input type="text" placeholder="БестМеталл">
+									</div>
+									<div class="field">
+										<div class="label">Ваша должность</div>
+										<input type="text" placeholder="Заместитель директора">
+									</div>
+								</div>								
+								<div class="label mb24">Деятельность компании*</div>
+								<div class="form_radio">
+									<input id="radio-1" type="radio" name="radio" value="1" checked="">
+									<label for="radio-1">Производство (Строительный рынок)</label>									
 								</div>
-								<div class="field">
-									<label for="">Ваша должность</label>
-									<input type="text" placeholder="Заместитель директора">
+								<div class="form_radio">
+									<input id="radio-2" type="radio" name="radio" value="2">
+									<label for="radio-2">Оптовая торговля (Строительный рынок)</label>									
+								</div>
+								<div class="form_radio">
+									<input id="radio-3" type="radio" name="radio" value="3">
+									<label for="radio-3">Оптовая торговля (Строительный рынок)</label>									
+								</div>
+								<div class="form_radio">
+									<input id="radio-4" type="radio" name="radio" value="4">
+									<label for="radio-4">Архитектура и дизайн интерьеров</label>									
+								</div>
+								<div class="form_radio">
+									<input id="radio-5" type="radio" name="radio" value="5">
+									<label for="radio-5">Проектирование зданий, сооружений</label>									
+								</div>
+								<div class="form_radio">
+									<input id="radio-6" type="radio" name="radio" value="6">
+									<label for="radio-6">Строительство зданий, сооружений</label>									
+								</div>
+								<div class="form_radio">
+									<input id="radio-7" type="radio" name="radio" value="7">
+									<label for="radio-7">Управление эксплуатацией зданий</label>									
+								</div>
+								<div class="form_radio">
+									<input id="radio-8" type="radio" name="radio" value="8">
+									<label for="radio-8">Ремонт и отделка помещений</label>									
+								</div>
+								<div class="form_radio">
+									<input id="radio-9" type="radio" name="radio" value="9">
+									<label for="radio-9">СМИ</label>									
+								</div>
+								<div class="line w610">
+									<div class="field">
+										<input type="text" placeholder="Другое (Пожалуйста укажите)">
+									</div>
 								</div>
 							</div>
-							<div class="form_item form_item-radio">	
-								Деятельность компании*
-								<div class="line">
-									<div class="field">										
-										<input type="radio" id="radio1">
-										<label for="radio1">Производство (Строительный рынок)</label>
+
+							<div class="form_item">
+								<div class="form_item-title">Дополнительное</div>	
+								<div class="label">Цель посещения выставки</div>
+								<div class="line w610">
+									<div class="field">
+										<select name="" id="">
+											<option value="">Выберите из списка</option>
+											<option value="">123</option>
+											<option value="">123</option>
+											<option value="">123</option>
+											<option value="">123</option>
+										</select>		
 									</div>
 								</div>
-								<div class="line">
-									<div class="field">										
-										<input type="radio" id="radio2">
-										<label for="radio2">Производство (Строительный рынок)</label>
+
+								<div class="label mb24">Область интересов в выставке</div>
+								<div class="form_checkbox">
+									<input id="check-1" type="checkbox">
+									<label for="check-1">Строительные материалы и оборудование</label>									
+								</div>	
+								<div class="form_checkbox">
+									<input id="check-2" type="checkbox">
+									<label for="check-2">Металл в строительстве</label>									
+								</div>	
+								<div class="form_checkbox">
+									<input id="check-3" type="checkbox">
+									<label for="check-3">Инженерные системы</label>									
+								</div>	
+								<div class="form_checkbox">
+									<input id="check-4" type="checkbox">
+									<label for="check-4">Окна, фасады, кровля, ворота</label>									
+								</div>	
+								<div class="form_checkbox">
+									<input id="check-5" type="checkbox">
+									<label for="check-5">Двери и фурнитура</label>									
+								</div>	
+								<div class="form_checkbox">
+									<input id="check-6" type="checkbox">
+									<label for="check-6">Напольные покрытия</label>									
+								</div>	
+								<div class="form_checkbox">
+									<input id="check-7" type="checkbox">
+									<label for="check-7">Сантехника. Интерьеры ванных комнат</label>									
+								</div>	
+								<div class="form_checkbox">
+									<input id="check-8" type="checkbox">
+									<label for="check-8">Керамическая плитка</label>									
+								</div>	
+								<div class="form_checkbox">
+									<input id="check-9" type="checkbox">
+									<label for="check-9">Технокерамика</label>									
+								</div>	
+								<div class="form_checkbox">
+									<input id="check-10" type="checkbox">
+									<label for="check-10">Камень</label>									
+								</div>	
+								<div class="form_checkbox">
+									<input id="check-11" type="checkbox">
+									<label for="check-11">Отделочные материалы для интерьера. Предметы декора и мебель</label>									
+								</div>	
+								<div class="form_checkbox">
+									<input id="check-12" type="checkbox">
+									<label for="check-12">Текстильный декор и ткани для интерьеров</label>									
+								</div>	
+								<div class="form_checkbox">
+									<input id="check-13" type="checkbox">
+									<label for="check-13">Специальные экспозиции дизайнеров</label>									
+								</div>	
+								<div class="line w610">
+									<div class="field">
+										<input type="text" placeholder="Другое (Пожалуйста укажите)">
 									</div>
-								</div>
-								<div class="line">
-									<div class="field">										
-										<input type="radio" id="radio3">
-										<label for="radio3">Производство (Строительный рынок)</label>
+								</div>	
+								<div class="label mb16">Примечания</div>
+								<div class="line w610">
+									<div class="field">
+										<textarea placeholder="Не более 500 символов"></textarea>
 									</div>
+								</div>	
+
+								<div class="form_switch">
+									<label class="checkbox-ios">
+										<input type="checkbox" checked>
+										<span class="checkbox-ios-switch"></span>
+										Хотели бы получать информацию об участии в выставке со стендом?
+									</label>										
+									<label class="checkbox-ios">
+										<input type="checkbox" checked>
+										<span class="checkbox-ios-switch"></span>
+										Согласен получать уведомления от ООО «Центр Экспо».
+									</label>									 
+									<label class="checkbox-ios">
+										<input type="checkbox" checked>
+										<span class="checkbox-ios-switch"></span>
+										Заполняя данную анкету, я даю свое согласие на обработку персональных данныхв соответствии со статьей 9 Федерального закона от 27.07.2006 № 152-ФЗ 'О персональных данных' и на получение информации по каналам связи.*
+									</label>
 								</div>
+
+								<button type="submit" class="form_submit">
+									<span>Отправить</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrs_hor"></use></svg>
+								</button>
 							</div>
-								
+							
 						</form>
 						
 					</div>
 				</section>
-				
-
-
 				
 			</div>
 
@@ -333,6 +458,8 @@
 		<script src="js/jquery-3.5.0.min.js"></script>
 		<script src="js/swiper-bundle.min.js"></script>
 		<script src="js/fancybox.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/jquery.nice-select.min.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>
 	</body>

@@ -196,6 +196,13 @@ $(() => {
 	})
 
 
+	$('select').niceSelect();
+	
+
+	// Маска ввода
+	$('input[type=tel]').inputmask('+7 (999) 999-99-99')
+
+
 	// Моб. меню
 	$('header .mob_menu_btn, .overlay').click((e) => {
 		e.preventDefault()

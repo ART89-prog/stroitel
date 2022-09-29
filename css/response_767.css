@@ -766,4 +766,155 @@
         font-size: 22px;
         line-height: 28px;
     }
+
+
+
+
+
+
+    /* REGISTRATION */
+
+    .reserve form .line {
+        margin-bottom: 32px;
+    }
+    .reserve form .line.w840 {
+        flex-direction: column;
+    }
+    .reserve form .line.w840 .field {
+        width: 100%;
+        margin-left: 0;
+    }
+    .reserve form .line.w840 .field:first-child {
+        margin-bottom: 32px;
+    }
+    .reserve form .line.w840 {
+        margin-left: 0;
+    }
+    .reserve form .line.w1030 {
+        flex-direction: column;
+    }
+    .reserve form .line.w1030 .field:first-child {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 32px;
+    }
+    .reserve form .line.w1030 .field:last-child {
+        width: 100%;
+    }
+    .reserve {
+        padding-top: 112px;
+        padding-bottom: 96px;
+    }
+    .breadcrumbs {
+        margin-bottom: 32px;
+    }
+    .reserve_title {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: -0.015em;  
+        margin-bottom: 48px;
+    }
+    .form_item-title {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: -0.01em;  
+        margin-bottom: 24px;
+    }
+    .reserve form .label {
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.02em;   
+    }
+    .reserve form .line .field input {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+    }
+    .reserve form .line .field input::-webkit-input-placeholder {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+    }
+    .reserve form .line .field input::-moz-placeholder {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+    }
+    .reserve form .line .field input:-moz-placeholder {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+    }
+    .reserve form .line .field input:-ms-input-placeholder {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+    }
+
+   .reserve form .line textarea::-webkit-input-placeholder {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+    }
+    .reserve form .line textarea::-moz-placeholder {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+    }
+    .reserve form .line textarea:-moz-placeholder {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+    }
+    .reserve form .line textarea:-ms-input-placeholder {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+    }
+    .form_item {
+        margin-bottom: 48px;
+    }
+    .reserve form .label.mb24 {
+        margin-bottom: 16px;
+    }
+    .form_radio label {
+        font-size: 13px;
+        line-height: 13px;
+        letter-spacing: -0.01em;   
+    }
+    .form_radio input[type=radio] + label:before {
+        top: -2px;
+    }
+    .form_radio input[type=radio]:checked + label:after {
+        top: 0;
+    }
+    .reserve .nice-select {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.01em;  
+        padding-top: 8px;
+    }
+    .nice-select:after {
+        margin-top: -4px;
+    }
+    form input[type=checkbox] + label {
+        font-size: 13px;
+        line-height: 13px;
+        letter-spacing: -0.01em;   
+    }
+    .checkbox-ios {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.01em;   
+    }
+    .reserve .form_submit {
+        margin-top: 40px;
+    }
+
+
+
+
 }
