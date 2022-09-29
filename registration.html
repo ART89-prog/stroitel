@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#3A5FA6">
+		<meta name="theme-color" content="#3A5FA6">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1366.css" media="print, (max-width: 1366px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_427.css" media="(max-width: 427px)" async>
+	</head>
+
+	<body>
+		<div class="wrap registration">
+			<div class="main">
+				<header>
+					<div class="top">
+						<div class="cont row">
+							<div class="date">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_calendar"></use></svg>
+								<span>14-17 октября 2022</span>
+								<span>14-17 окт 2022</span>
+							</div>
+
+							<div class="sep"></div>
+
+							<div class="location">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								<span>МВК «Новосибирск Экспоцентр»</span>
+							</div>
+
+							<div class="langs modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#langs_modal">
+									<span>Ru</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+								</button>
+							
+								<div class="mini_modal" id="langs_modal">
+									<div><button class="link active">Ru</button></div>
+									<div><button class="link">En</button></div>
+									<div><button class="link">De</button></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="info">
+						<div class="cont row">
+							<div class="logo">
+								<img src="images/logo.svg" alt="">
+							</div>
+
+							<nav class="menu row">
+								<div class="menu_item">
+									<a href="/">Выставка</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/" class="sub_link">
+										<span>Форум</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub_menu">
+										<div><a href="/"></a></div>
+									</div>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Участникам</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Новости</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Контакты</a>
+								</div>
+							</nav>
+
+							<div class="btns">								
+
+								<button class="booking_btn">Забронировать стенд</button>
+							</div>
+
+							<button class="mob_menu_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close2"></use></svg>
+							</button>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_menu">
+					<div class="scroll">
+						<div class="cont">
+							<div class="menu">
+								<div class="menu_item">
+									<a href="/">Выставка</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Форум мастеров</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Форум архитекторов</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Лекторий</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Участникам</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Новости</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Контакты</a>
+								</div>
+							</div>
+
+							<div class="btns">
+								<a href="/" class="visit_link">
+									<span>Посетить выставку</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrs_hor"></use></svg>
+								</a>
+
+								<button class="booking_btn">Забронировать стенд</button>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="reserve">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> 
+							<span class="sep">/</span>
+							<span class="current">Посетить выставку</span>
+						</div>
+						<div class="reserve_title">Оформление</div>
+						<form>
+							<div class="form_item">
+								<div class="form_item-title">Контактные данные</div>	
+								<div class="line">
+									<div class="field">
+										<label for="">Ваше имя и фамилия*</label>
+										<input type="text" placeholder="Сергей Пескарев">
+									</div>
+								</div>
+								<div class="line">
+									<div class="field">
+										<label for="">Ваш телефон*</label>
+										<input type="tel" placeholder="Сергей Пескарев">
+									</div>
+									<div class="field">
+										<label for="">Ваш e-mail*</label>
+										<input type="email" placeholder="mymail@gmail.com">
+									</div>
+								</div>
+								<div class="line">
+									<div class="field">
+										<label for="">Страна*</label>
+										<input type="text" placeholder="Россия">
+									</div>
+									<div class="field">
+										<label for="">Город</label>
+										<input type="text" placeholder="Тверь">
+									</div>
+								</div>	
+							</div>
+							
+							<div class="form_item-title">Данные о компании</div>	
+							<div class="line">
+								<div class="field">
+									<label for="">Название компании*</label>
+									<input type="text" placeholder="БестМеталл">
+								</div>
+								<div class="field">
+									<label for="">Ваша должность</label>
+									<input type="text" placeholder="Заместитель директора">
+								</div>
+							</div>
+							<div class="form_item form_item-radio">	
+								Деятельность компании*
+								<div class="line">
+									<div class="field">										
+										<input type="radio" id="radio1">
+										<label for="radio1">Производство (Строительный рынок)</label>
+									</div>
+								</div>
+								<div class="line">
+									<div class="field">										
+										<input type="radio" id="radio2">
+										<label for="radio2">Производство (Строительный рынок)</label>
+									</div>
+								</div>
+								<div class="line">
+									<div class="field">										
+										<input type="radio" id="radio3">
+										<label for="radio3">Производство (Строительный рынок)</label>
+									</div>
+								</div>
+							</div>
+								
+						</form>
+						
+					</div>
+				</section>
+				
+
+
+				
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="logo">
+						<img src="images/logo.svg" alt="">
+					</div>
+
+					<div class="links">
+						<div class="title">Навигация</div>
+
+						<div class="items">
+							<div><a href="/">Выставка</a></div>
+							<div><a href="/">Форум мастеров</a></div>
+							<div><a href="/">Форум архитекторов</a></div>
+							<div><a href="/">Лекторий</a></div>
+							<div><a href="/">Участникам</a></div>
+							<div><a href="/">Контакты</a></div>
+							<div><a href="/">Новости</a></div>
+						</div>
+					</div>
+
+					<div class="contacts">
+						<div class="item">
+							<div class="title">Место выставки</div>
+
+							<div class="location">Новосибирск,<br> Ул.Станционная, 104<br> ООО «Центр Экспо»</div>
+						</div>
+
+						<div class="item">
+							<div class="title">Связаться</div>
+
+							<div class="phone">
+								<a href="tel:+73833630063">+7 (383) 363-00-63</a>
+							</div>
+
+							<div class="email">
+								<a href="mailto:info@sibbuilding.ru">info@sibbuilding.ru</a>
+							</div>
+
+							<div class="ogrn">ОГРН 1195476001313</div>
+
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="cont row">
+					<div class="copyright">&copy;2022 Все права защищены.</div>
+
+					<div class="privacy_policy_link">
+						<a href="/">Политика конфидециальности</a>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+		
+		<section class="modal partner_info" id="partner_modal">
+			<div class="modal_title">Дополнительная<br> Информация</div>
+
+			<div class="logo">
+				<img src="images/tmp/partner_logo_color1.png" alt="">
+			</div>
+
+			<div class="name">Новосибирск ЭКСПО Центр</div>
+
+			<div class="desc">Как принято считать, действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены сами себе. В рамках спецификации современных стандартов, сделанные на базе интернет-аналитики выводы, превозмогая сложившуюся непростую экономическую ситуацию, превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Лишь элементы политического процесса могут быть функционально разнесены на независимые элементы.<br> Как принято считать, действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены сами себе. В рамках спецификации современных стандартов, сделанные на базе интернет-аналитики выводы, превозмогая сложившуюся непростую экономическую ситуацию, превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Лишь элементы политического процесса могут быть функционально разнесены на независимые элементы.</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

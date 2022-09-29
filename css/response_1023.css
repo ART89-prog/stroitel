@@ -1,0 +1,545 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+        --font_size_title: 52px;
+    }
+
+
+    .cont
+    {
+        padding: 0 40px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .swiper-button-prev
+    {
+        left: -80px;
+    }
+
+    .swiper-button-next
+    {
+        right: -80px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        border-radius: 0 0 32px 32px;
+    }
+
+
+    header .info
+    {
+        padding: 12px 0;
+    }
+
+
+    header .sep
+    {
+        display: none;
+    }
+
+
+    header .location
+    {
+        margin-left: 24px;
+    }
+
+
+    header .langs
+    {
+        position: absolute;
+        top: 64px;
+        right: 94px;
+    }
+
+
+    header .logo img
+    {
+        height: 52px;
+    }
+
+
+    header .menu,
+    header .btns
+    {
+        display: none;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .block_head .all_link a
+    {
+        font-size: 20px;
+    }
+
+    .block_head .all_link .icon
+    {
+        width: 28px;
+        height: 28px;
+        margin-left: 8px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 192px;
+        padding-bottom: 80px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 64px;
+
+        width: 480px;
+    }
+
+
+    .first_section .info
+    {
+        margin-top: 52px;
+    }
+
+
+    .first_section .info .label
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .first_section .info .val
+    {
+        font-size: 26px;
+        line-height: 32px;
+
+        min-height: 48px;
+    }
+
+
+    .first_section .info img
+    {
+        height: 44px;
+    }
+
+
+    .first_section .info .calendar_btn
+    {
+        width: 48px;
+        height: 48px;
+        margin-left: 12px;
+    }
+
+    .first_section .info .calendar_btn .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+
+    /*----------------
+        Stats info
+    ----------------*/
+    .stats_info .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 80px);
+        margin: 0 -40px;
+        padding: 0 40px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .stats_info .row::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .stats_info .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .stats_info .row > *
+    {
+        display: inline-block;
+
+        width: 200px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .stats_info .row > * + *
+    {
+        margin-left: 20px;
+    }
+
+
+    .stats_info .item
+    {
+        height: auto;
+        padding: 140px 20px 20px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .block_desc
+    {
+        font-size: 30px;
+        line-height: 40px;
+
+        margin-top: 28px;
+    }
+
+
+    .about_info .download
+    {
+        margin-top: 40px;
+    }
+
+
+    .about_info .download a
+    {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .about_info .download a .icon
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+    .about_info .slider
+    {
+        width: 560px;
+        margin-top: 48px;
+    }
+
+
+
+    /*-------------
+        Reasons
+    -------------*/
+    .reasons .block_title
+    {
+        font-size: 64px;
+    }
+
+
+    .reasons .row > *,
+    .reasons .row > *.big_w
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .reasons .reason,
+    .reasons .get_involved
+    {
+        height: 340px;
+        padding: 28px;
+    }
+
+    .reasons .get_involved .btn
+    {
+        font-size: 16px;
+
+        width: 100%;
+        height: 44px;
+    }
+
+
+    .reasons .reason .img
+    {
+        right: 28px;
+        bottom: 28px;
+
+        height: 160px;
+    }
+
+
+
+    /*-------------
+        Members
+    -------------*/
+    .members .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .members .item
+    {
+        padding: 28px;
+    }
+
+
+    .members .booking_btn
+    {
+        padding: 28px;
+    }
+
+    .members .booking_btn .btn
+    {
+        font-size: 16px;
+
+        width: 100%;
+        height: 44px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .item
+    {
+        height: 120px;
+    }
+
+
+
+    /*----------------
+        How it was
+    ----------------*/
+    .how .data
+    {
+        width: calc(100% + 80px);
+        margin-right: -40px;
+        margin-left: -40px;
+        padding: 80px 40px 140px;
+    }
+
+
+    .how .block_desc
+    {
+        font-size: 30px;
+        line-height: 40px;
+
+        margin-top: 28px;
+    }
+
+
+    .how .btns
+    {
+        margin-top: 48px;
+    }
+
+
+    .how .visit_link,
+    .how .booking_btn
+    {
+        font-size: 16px;
+
+        height: 44px;
+    }
+
+
+    .how .video_link .thumb
+    {
+        height: 320px;
+    }
+
+    .how .video_link .icon
+    {
+        width: 110px;
+        height: 110px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .review
+    {
+        padding: 28px;
+    }
+
+
+    .reviews .review .photo
+    {
+        width: 160px;
+        height: 160px;
+    }
+
+
+    .reviews .review.video_link .icon
+    {
+        width: 110px;
+        height: 110px;
+    }
+
+    .reviews .review.video_link .name
+    {
+        padding: 28px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: calc(100% + 80px);
+        margin-right: -40px;
+        margin-left: -40px;
+        padding: 80px 40px 140px;
+    }
+
+
+    .contacts_info .block_title
+    {
+        font-size: 32px;
+    }
+
+
+    .contacts_info .location
+    {
+        margin-top: 110px;
+    }
+
+
+    .contacts_info .visit_link,
+    .contacts_info .booking_btn
+    {
+        font-size: 16px;
+
+        height: 44px;
+    }
+
+
+    .contacts_info .map
+    {
+        height: 400px;
+        margin-top: -80px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo
+    {
+        width: 100%;
+        margin-bottom: 42px;
+    }
+
+
+    footer .links
+    {
+        width: calc(50% - 20px);
+        margin-left: 0;
+    }
+
+
+    footer .contacts
+    {
+        width: calc(50% - 20px);
+        margin-left: auto;
+    }
+
+
+    footer .privacy_policy_link
+    {
+        width: calc(50% - 20px);
+        margin-left: auto;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 480px;
+        padding: 40px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+
+    .modal.partner_info .logo
+    {
+        height: 120px;
+        padding: 30px;
+    }
+
+
+    .modal.partner_info .name
+    {
+        font-size: 25px;
+        line-height: 31px;
+    }
+}

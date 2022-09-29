@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#3A5FA6">
+		<meta name="theme-color" content="#3A5FA6">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1366.css" media="print, (max-width: 1366px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_427.css" media="(max-width: 427px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="top">
+						<div class="cont row">
+							<div class="date">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_calendar"></use></svg>
+								<span>14-17 октября 2022</span>
+								<span>14-17 окт 2022</span>
+							</div>
+
+							<div class="sep"></div>
+
+							<div class="location">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								<span>МВК «Новосибирск Экспоцентр»</span>
+							</div>
+
+							<div class="langs modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#langs_modal">
+									<span>Ru</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+								</button>
+							
+								<div class="mini_modal" id="langs_modal">
+									<div><button class="link active">Ru</button></div>
+									<div><button class="link">En</button></div>
+									<div><button class="link">De</button></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="info">
+						<div class="cont row">
+							<div class="logo">
+								<img src="images/logo.svg" alt="">
+							</div>
+
+							<nav class="menu row">
+								<div class="menu_item">
+									<a href="/">Выставка</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/" class="sub_link">
+										<span>Форум</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub_menu">
+										<div><a href="/"></a></div>
+									</div>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Участникам</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Новости</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Контакты</a>
+								</div>
+							</nav>
+
+							<div class="btns">
+								<a href="/" class="visit_link">
+									<span>Посетить выставку</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrs_hor"></use></svg>
+								</a>
+
+								<button class="booking_btn">Забронировать стенд</button>
+							</div>
+
+							<button class="mob_menu_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close2"></use></svg>
+							</button>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_menu">
+					<div class="scroll">
+						<div class="cont">
+							<div class="menu">
+								<div class="menu_item">
+									<a href="/">Выставка</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Форум мастеров</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Форум архитекторов</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Лекторий</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Участникам</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Новости</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Контакты</a>
+								</div>
+							</div>
+
+							<div class="btns">
+								<a href="/" class="visit_link">
+									<span>Посетить выставку</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrs_hor"></use></svg>
+								</a>
+
+								<button class="booking_btn">Забронировать стенд</button>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="first_section block">
+					<div class="cont">
+						<div class="data">
+							<div class="title">Сибирская<br> Строительная<br> Неделя</div>
+
+							<div class="desc">Ежегодная международная выставка строительных, отделочных материалов и оборудования, архитектурных проектов и дизайна</div>
+
+							<div class="info">
+								<div>
+									<div class="label">Место проведения :</div>
+
+									<div class="val">
+										<img src="images/place_logo.svg" alt="">
+									</div>
+								</div>
+
+								<div>
+									<div class="label">Дата проведения :</div>
+									<div class="val">14-17 окт. 2022</div>
+								</div>
+
+								<div>
+									<div class="label">До начала форума :</div>
+									<div class="val">
+										<span>28 дн. 06 ч.</span>
+
+										<button class="calendar_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_calendar"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<img data-src="images/tmp/bg_first_section.jpg" alt="" class="bg lazyload">
+				</section>
+
+
+				<section class="stats_info block">
+					<div class="cont">
+						<div class="row">
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_stats1.svg" alt="" class="lazyload">
+								</div>
+
+								<div class="val">22</div>
+								<div>Стран<br> Участниц</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_stats2.svg" alt="" class="lazyload">
+								</div>
+
+								<div class="val">30+</div>
+								<div>Выступающих<br> Экспертов</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_stats3.svg" alt="" class="lazyload">
+								</div>
+
+								<div class="val">70+</div>
+								<div>Информационных<br> Партнеров</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_stats4.svg" alt="" class="lazyload">
+								</div>
+
+								<div class="val">10 000</div>
+								<div>Представителей<br> Проф. сообществ</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_stats5.svg" alt="" class="lazyload">
+								</div>
+
+								<div class="val">2000<small>м<sup>2</sup></small></div>
+								<div>Места для<br> Стендов</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="about_info block">
+					<div class="cont">
+						<div class="block_title">О выставке</div>
+
+						<div class="block_desc">Учитывая ключевые сценарии поведения, постоянное информационно-пропагандистское обеспечение нашей деятельности не оставляет шанса для приоретизации разума над эмоциями.</div>
+
+						<div class="download">
+							<a href="/">
+								<div class="icon">
+									<img src="images/ic_download.svg" alt="">
+								</div>
+								<span>Скачать деловую программу</span>
+							</a>
+						</div>
+
+						<div class="slider">
+							<div class="swiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="image">
+											<img data-src="images/tmp/about_slider_img.jpg" alt="" class="swiper-lazy">
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="image">
+											<img data-src="images/tmp/about_slider_img.jpg" alt="" class="swiper-lazy">
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="image">
+											<img data-src="images/tmp/about_slider_img.jpg" alt="" class="swiper-lazy">
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="image">
+											<img data-src="images/tmp/about_slider_img.jpg" alt="" class="swiper-lazy">
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="image">
+											<img data-src="images/tmp/about_slider_img.jpg" alt="" class="swiper-lazy">
+										</div>
+									</div>
+								</div>
+	
+								<div class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+								</div>
+	
+								<div class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="reasons block">
+					<div class="cont">
+						<div class="block_title">5 причин<br> посетить нас</div>
+
+						<div class="row">
+							<div class="reason big_w">
+								<div class="name">30+ выступлений<br> экспертов из России<br> и других стран</div>
+
+								<img data-src="images/reason_img.png" alt="" class="img lazyload">
+								<img data-src="images/mob_reason_img.png" alt="" class="mob_img lazyload">
+							</div>
+
+							<div class="reason">
+								<div class="name">Пространство<br> для общения<br> и обмена опытом</div>
+
+								<img data-src="images/bg_reason1.png" alt="" class="bg lazyload">
+							</div>
+
+							<div class="reason">
+								<div class="name">Пространство<br> для общения<br> и обмена опытом</div>
+
+								<img data-src="images/bg_reason2.png" alt="" class="bg lazyload">
+							</div>
+
+							<div class="reason big_w">
+								<div class="name">Сертификат участника<br> ежегодной сибирской<br> строительной недели</div>
+
+								<img data-src="images/bg_reason3.png" alt="" class="bg lazyload">
+							</div>
+
+							<div class="reason big_w">
+								<div class="name">30+ выступлений<br> экспертов из России<br> и других стран</div>
+
+								<img data-src="images/bg_reason4.png" alt="" class="bg lazyload">
+							</div>
+
+							<a href="/" class="get_involved">
+								<div class="name">Примите участие<br> в ежегодной<br> выставке</div>
+
+								<div class="btn">
+									<span>Посетить выставку</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrs_hor"></use></svg>
+								</div>
+							</a>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="members block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Участники</div>
+
+							<div class="all_link">
+								<a href="/">
+									<span>Все участники</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_link_arrow"></use></svg>
+								</a>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="item">
+								<div class="logo">
+									<img data-src="images/tmp/member_logo1.png" alt="" class="lazyload">
+								</div>
+
+								<div class="name">Технониколь</div>
+							</div>
+
+							<div class="item">
+								<div class="logo">
+									<img data-src="images/tmp/member_logo2.png" alt="" class="lazyload">
+								</div>
+								
+								<div class="name">АСОНО</div>
+							</div>
+
+							<div class="item">
+								<div class="logo">
+									<img data-src="images/tmp/member_logo3.png" alt="" class="lazyload">
+								</div>
+								
+								<div class="name">Брусника</div>
+							</div>
+
+							<div class="item">
+								<div class="logo">
+									<img data-src="images/tmp/member_logo1.png" alt="" class="lazyload">
+								</div>
+								
+								<div class="name">Технониколь</div>
+							</div>
+
+							<div class="item">
+								<div class="logo">
+									<img data-src="images/tmp/member_logo2.png" alt="" class="lazyload">
+								</div>
+								
+								<div class="name">АСОНО</div>
+							</div>
+
+							<div class="item">
+								<div class="logo">
+									<img data-src="images/tmp/member_logo3.png" alt="" class="lazyload">
+								</div>
+								
+								<div class="name">Брусника</div>
+							</div>
+
+							<div class="item">
+								<div class="logo">
+									<img data-src="images/tmp/member_logo1.png" alt="" class="lazyload">
+								</div>
+								
+								<div class="name">Технониколь</div>
+							</div>
+
+							<button class="booking_btn">
+								<div class="name">Стань участником форума, забронируй стенд</div>
+
+								<div class="btn">
+									<span>Забронируй стенд</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrs_hor"></use></svg>
+								</div>
+							</button>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="partners block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Партнеры</div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo1.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo2.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo3.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo4.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo1.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo2.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo3.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo4.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+
+				<section class="partners block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Информационные<br> партнеры</div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo5.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo6.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo7.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo8.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo5.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo6.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo7.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+
+								<div class="swiper-slide">
+									<button class="item modal_btn" data-modal="#partner_modal">
+										<img data-src="images/tmp/partners_logo8.png" alt="" class="swiper-lazy">
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="how block">
+					<div class="cont">
+						<div class="data">
+							<div class="block_title">Как это было?</div>
+
+							<div class="block_desc">Учитывая ключевые сценарии поведения, постоянное информационно-пропагандистское обеспечение нашей деятельности не оставляет шанса для приоретизации разума над эмоциями.</div>
+
+							<div class="btns">
+								<a href="/" class="visit_link">
+									<span>Посетить выставку</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrs_hor"></use></svg>
+								</a>
+
+								<button class="booking_btn">Забронировать стенд</button>
+							</div>
+						</div>
+
+						<a href="https://www.youtube.com/watch?v=R9Wvg6THqUk" data-fancybox class="video_link">
+							<div class="thumb">
+								<img data-src="images/tmp/video_thumb.jpg" alt="" class="lazyload">
+
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_video_play"></use></svg>
+							</div>
+						</a>
+					</div>
+				</section>
+
+
+				<section class="reviews block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Отзывы</div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="review">
+										<div class="photo">
+											<img data-src="images/tmp/review_photo.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="name">Иван Комлев,<br> Руководитель ООО “ФИРМА”</div>
+
+										<div class="text">А также представители современных социальных резервов, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объективно рассмотрены соответствующими инстанциями! Следует отметить, что семантический разбор внешних противодействий.</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="https://www.youtube.com/watch?v=R9Wvg6THqUk" data-fancybox class="review video_link">
+										<div class="photo">
+											<img data-src="images/tmp/review_photo2.jpg" alt="" class="swiper-lazy">
+
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_video_play"></use></svg>
+										</div>
+
+										<div class="name">Нарзан Аметов,<br> руководитель ООО “ФИРМА”</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="review">
+										<div class="photo">
+											<img data-src="images/tmp/review_photo3.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="name">Максим Лошак,<br> Руководитель ООО “ФИРМА”</div>
+
+										<div class="text">А также представители современных социальных резервов, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объективно рассмотрены соответствующими инстанциями! Следует отметить, что семантический разбор внешних противодействий создаёт предпосылки для направлений прогрессивного развития! Учитывая ключевые сценарии поведения, постоянное информационно-пропагандистское обеспечение</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="review">
+										<div class="photo">
+											<img data-src="images/tmp/review_photo.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="name">Иван Комлев,<br> Руководитель ООО “ФИРМА”</div>
+
+										<div class="text">А также представители современных социальных резервов, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объективно рассмотрены соответствующими инстанциями! Следует отметить, что семантический разбор внешних противодействий.</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="review">
+										<div class="photo">
+											<img data-src="images/tmp/review_photo.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="name">Иван Комлев,<br> Руководитель ООО “ФИРМА”</div>
+
+										<div class="text">А также представители современных социальных резервов, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объективно рассмотрены соответствующими инстанциями! Следует отметить, что семантический разбор внешних противодействий.</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="contacts_info block">
+					<div class="cont">
+						<div class="data">
+							<div class="block_title">Место выставки</div>
+
+							<div class="location">Россия,<br> Новосибирск,<br> Ул. Станционная, 104</div>
+	
+							<div class="btns">
+								<a href="/" class="visit_link">
+									<span>Посетить выставку</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrs_hor"></use></svg>
+								</a>
+	
+								<button class="booking_btn">Забронировать стенд</button>
+							</div>
+						</div>
+
+						<div class="map">
+
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="logo">
+						<img src="images/logo.svg" alt="">
+					</div>
+
+					<div class="links">
+						<div class="title">Навигация</div>
+
+						<div class="items">
+							<div><a href="/">Выставка</a></div>
+							<div><a href="/">Форум мастеров</a></div>
+							<div><a href="/">Форум архитекторов</a></div>
+							<div><a href="/">Лекторий</a></div>
+							<div><a href="/">Участникам</a></div>
+							<div><a href="/">Контакты</a></div>
+							<div><a href="/">Новости</a></div>
+						</div>
+					</div>
+
+					<div class="contacts">
+						<div class="item">
+							<div class="title">Место выставки</div>
+
+							<div class="location">Новосибирск,<br> Ул.Станционная, 104<br> ООО «Центр Экспо»</div>
+						</div>
+
+						<div class="item">
+							<div class="title">Связаться</div>
+
+							<div class="phone">
+								<a href="tel:+73833630063">+7 (383) 363-00-63</a>
+							</div>
+
+							<div class="email">
+								<a href="mailto:info@sibbuilding.ru">info@sibbuilding.ru</a>
+							</div>
+
+							<div class="ogrn">ОГРН 1195476001313</div>
+
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="cont row">
+					<div class="copyright">&copy;2022 Все права защищены.</div>
+
+					<div class="privacy_policy_link">
+						<a href="/">Политика конфидециальности</a>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+		
+		<section class="modal partner_info" id="partner_modal">
+			<div class="modal_title">Дополнительная<br> Информация</div>
+
+			<div class="logo">
+				<img src="images/tmp/partner_logo_color1.png" alt="">
+			</div>
+
+			<div class="name">Новосибирск ЭКСПО Центр</div>
+
+			<div class="desc">Как принято считать, действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены сами себе. В рамках спецификации современных стандартов, сделанные на базе интернет-аналитики выводы, превозмогая сложившуюся непростую экономическую ситуацию, превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Лишь элементы политического процесса могут быть функционально разнесены на независимые элементы.<br> Как принято считать, действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены сами себе. В рамках спецификации современных стандартов, сделанные на базе интернет-аналитики выводы, превозмогая сложившуюся непростую экономическую ситуацию, превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Лишь элементы политического процесса могут быть функционально разнесены на независимые элементы.</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

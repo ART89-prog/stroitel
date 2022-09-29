@@ -1,0 +1,528 @@
+@media print,
+(max-width: 1367px) {
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root {
+        --font_size: 16px;
+        --font_size_title: 46px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .block {
+        margin-bottom: 130px;
+    }
+
+
+    .swiper-button-prev {
+        left: -127px;
+    }
+
+    .swiper-button-next {
+        right: -127px;
+    }
+
+    .cont {
+        max-width: 1144px;
+    }
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide {
+        padding: 32px;
+    }
+
+
+    /*------------
+        Header
+    ------------*/
+    header .sep {
+        height: 24px;
+    }
+
+
+    header .btns {
+        display: block;
+    }
+
+    header .btns > * + * {
+        margin-top: 4px;
+        margin-left: 0;
+    }
+
+
+    header .visit_link,
+    header .booking_btn {
+        width: 200px;
+    }
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head {
+        margin-bottom: 40px;
+    }
+
+
+    .block_head .all_link a {
+        font-size: 24px;
+    }
+
+    .block_head .all_link .icon {
+        width: 32px;
+        height: 32px;
+        margin-left: 12px;
+    }
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section {
+        border-radius: 0;
+    }
+
+
+    .first_section .cont {
+        padding-top: 236px;
+        padding-bottom: 80px;
+    }
+
+
+    .first_section .title {
+        font-size: 64px;
+        line-height: 100%;
+
+        width: 600px;
+    }
+
+    .first_section .desc {
+        font-size: 22px;
+        line-height: 32px;
+
+        width: 424px;
+        margin-top: 24px;
+    }
+
+
+    .first_section .info {
+        margin-top: 60px;
+    }
+
+
+    .first_section .info .label {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .first_section .info .val {
+        font-size: 32px;
+        line-height: 40px;
+
+        min-height: 56px;
+    }
+
+
+    .first_section .info .calendar_btn {
+        width: 56px;
+        height: 56px;
+        margin-left: 20px;
+    }
+
+    .first_section .info .calendar_btn .icon {
+        width: 28px;
+        height: 28px;
+    }
+
+
+    /*----------------
+        Stats info
+    ----------------*/
+    .stats_info .row {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .stats_info .row > * {
+        width: calc(20% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .stats_info .item {
+        font-size: 16px;
+        line-height: 22px;
+
+        height: 260px;
+        padding: 20px;
+    }
+
+
+    .stats_info .item .icon {
+        top: 20px;
+        right: 20px;
+    }
+
+    .stats_info .item .icon img {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .stats_info .item .val {
+        font-size: 40px;
+
+        margin-bottom: 0;
+    }
+
+    .stats_info .item .val small {
+        font-size: 28px;
+    }
+
+    .stats_info .item .val small sup {
+        font-size: 14px;
+        line-height: 32px;
+    }
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .block_desc {
+        font-size: 24px;
+        line-height: 48px;
+        margin-top: 40px;
+    }
+
+    .about_info .block_desc br {
+        display: none;
+    }
+
+
+    .about_info .download {
+        margin-top: 52px;
+    }
+
+
+    .about_info .download a {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .about_info .download a .icon {
+        width: 56px;
+        height: 56px;
+    }
+
+
+    .about_info .slider {
+        width: 720px;
+        margin-top: 52px;
+    }
+
+
+    /*-------------
+        Reasons
+    -------------*/
+    .reasons .block_title {
+        font-size: var(--font_size_title);
+
+        margin-bottom: 40px;
+    }
+
+
+    .reasons .reason,
+    .reasons .get_involved {
+        font-size: 20px;
+        line-height: 28px;
+
+        height: 280px;
+        padding: 28px 24px;
+    }
+
+    .reasons .get_involved .btn {
+        font-size: 17px;
+
+        width: 240px;
+        height: 46px;
+    }
+
+
+    /*-------------
+        Members
+    -------------*/
+    .members .row > * {
+        width: calc(33.333% - 20px);
+    }
+
+
+    .members .item {
+        font-size: 20px;
+        line-height: 28px;
+
+        padding: 28px 24px;
+    }
+
+    .members .item .logo {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 20px;
+        padding: 42px;
+    }
+
+
+    .members .booking_btn {
+        font-size: 20px;
+        line-height: 28px;
+
+        padding: 28px 24px;
+    }
+
+    .members .booking_btn .btn {
+        font-size: 17px;
+
+        width: 240px;
+        height: 46px;
+    }
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .item {
+        height: 160px;
+    }
+
+
+    /*----------------
+        How it was
+    ----------------*/
+    .how .data {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 80px 50px 160px;
+    }
+
+
+    .how .block_desc {
+        font-size: 24px;
+        line-height: 48px;
+
+        margin-top: 40px;
+    }
+
+    .how .block_desc br {
+        display: none;
+    }
+
+
+    .how .btns {
+        margin-top: 52px;
+    }
+
+    .how .btns > * + * {
+        margin-left: 20px;
+    }
+
+
+    .how .visit_link,
+    .how .booking_btn {
+        font-size: 17px;
+
+        width: 240px;
+        height: 46px;
+    }
+
+
+    .how .video_link .thumb {
+        height: 440px;
+    }
+
+    .how .video_link .icon {
+        width: 140px;
+        height: 140px;
+    }
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .review {
+        padding: 40px 24px;
+    }
+
+
+    .reviews .review .photo {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 28px;
+    }
+
+
+    .reviews .review .name {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .reviews .review .text {
+        font-size: 16px;
+        line-height: 22px;
+
+        max-height: 244px;
+    }
+
+
+    .reviews .review.video_link .icon {
+        width: 140px;
+        height: 140px;
+    }
+
+    .reviews .review.video_link .name {
+        padding: 24px;
+    }
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 80px 24px 160px;
+    }
+
+
+    .contacts_info .block_title {
+        font-size: 40px;
+    }
+
+
+    .contacts_info .location {
+        margin-top: 30px;
+    }
+
+
+    .contacts_info .btns {
+        margin-top: 40px;
+    }
+
+    .contacts_info .btns > * + * {
+        margin-left: 20px;
+    }
+
+
+    .contacts_info .visit_link,
+    .contacts_info .booking_btn {
+        font-size: 17px;
+
+        width: 240px;
+        height: 46px;
+    }
+
+
+    .contacts_info .map {
+        height: 480px;
+        margin-top: -100px;
+    }
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer {
+        padding-bottom: 60px;
+    }
+
+
+    footer .cont + .cont {
+        margin-top: 60px;
+    }
+
+
+    footer .title {
+        margin-bottom: 20px;
+    }
+
+
+    footer .links .items {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    footer .contacts {
+        width: 240px;
+        margin-left: 100px;
+    }
+
+
+    footer .location,
+    footer .phone,
+    footer .email,
+    footer .ogrn {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    footer .copyright {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    footer .privacy_policy_link {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: 240px;
+    }
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal {
+        width: 540px;
+        padding: 48px 40px 40px;
+    }
+
+
+    .modal_title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+
+    .modal.partner_info .logo {
+        height: 160px;
+    }
+
+
+    .modal.partner_info .name {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+
+    .modal.partner_info .desc {
+        font-size: 16px;
+        line-height: 22px;
+
+        max-height: 288px;
+        padding-right: 16px;
+    }
+}
