@@ -2561,6 +2561,7 @@ footer .privacy_policy_link a:active {
     border: 1px solid #1B2C4D;
     border-radius: 16px;   
     resize: none; 
+    background: #F9FAFC;
 }
 .reserve form .line.w840 .field {
     width: calc(100%/2 - 20px);
@@ -2586,6 +2587,7 @@ footer .privacy_policy_link a:active {
     line-height: 24px;
     color: #1B2C4D;
     font-family: var(--font_family2);
+    background: #F9FAFC;
 }
 .reserve form .line .field input::-webkit-input-placeholder {
     font-weight: 400;
@@ -2658,7 +2660,7 @@ footer .privacy_policy_link a:active {
     font-size: 18px;
     line-height: 24px;
     color: #9DAECF;
-
+    background: #F9FAFC;
 }
 .nice-select:after {
     border-bottom: 2px solid #9DAECF;
@@ -2880,10 +2882,6 @@ form input[type=checkbox]:checked+label:after {
     margin-left: 4px;
 }
 
-
-
-
-
 .registration footer .cont {
     padding-top: 48px;
     border-top: 1px solid #7E8FAF;
@@ -2891,3 +2889,8 @@ form input[type=checkbox]:checked+label:after {
 .registration footer .cont + .cont {
     border: none;
 }
+
+
+
+/* VISIT */
+
